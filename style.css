@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#directing{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ff748c;
+}
+
+.buttons{
+
+    
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    
+}
+button{
+
+    margin: 1rem;
+    font-size: 7rem;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+#rock{
+    background-color: #8cff74;
+}
+
+#paper{
+    background-color: #748cff;
+}
+
+#scissors{
+    background-color: #ff4162;
+}
+
+#result{
+
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 2.5rem;
+}
+
+#score{
+
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    text-align: center;   
+}
+
+#userScore{
+
+    margin-right: 10rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2af400;
+}
+
+#computerScore{
+
+    color: #f4002a;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#reset{
+
+    font-size: 1.5rem;
+    background-color: orange;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 50px auto;
+    display: none;
+
+}
+
+@media (max-width : 991px) {
+    
+button{
+
+    margin: .5rem;
+    font-size: 5rem;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+
+
+
+
+#userScore{
+
+    margin-right: 2rem;
+   
+
+
+}
+}
